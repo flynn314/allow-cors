@@ -1,0 +1,17 @@
+{
+	"name": "flynn314/allow-cors",
+	"description": "Format seconds",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"php": "^7.4",
+		"illuminate/http": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Flynn314\\Middleware\\": "src"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
