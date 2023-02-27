@@ -21,7 +21,7 @@ final class AllowCors
         ];
         foreach ($headers as $name => $value) {
             if (!$request->hasHeader($name)) {
-                $next($request)->header($name, $value);
+                $request->header($name, $value);
             }
         }
 
