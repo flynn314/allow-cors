@@ -1,10 +1,10 @@
 {
 	"name": "flynn314/allow-cors",
-	"description": "Format seconds",
+	"description": "Allow cors",
 	"type": "library",
 	"license": "MIT",
 	"require": {
-		"php": "^7.4|^8.2",
+		"php": "^8.2",
 		"illuminate/http": "*"
 	},
 	"autoload": {
